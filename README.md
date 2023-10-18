@@ -79,7 +79,7 @@ Crie um arquivo ***Dockerfile*** com o conteúdo especificado na seção [Docker
 Em seguida crie um arquivo ***docker-compose.yaml*** com o conteúdo especificado na seção [Docker-Compose: Simplificando o Ambiente de Desenvolvimento](#docker-compose). Feito esses dois passos, com o terminal aberto no diretório onde se encontram os dois arquivos mencionados, execute o seguinte comando:
 
 ```bash
-docker compose run --rm --build rust-dev-service /bin/bash
+docker-compose run --rm --build rust-dev-service /bin/bash
 ```
 
 dessa forma você estará dentro do container e poderá executar os comandos do rust (cargo, rustc, etc).
